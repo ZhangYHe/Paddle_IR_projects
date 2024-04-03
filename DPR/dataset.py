@@ -23,7 +23,7 @@ class SquadDPRDataset(Dataset):
         positive_encoding = self.tokenizer(positive_context, max_length=self.max_length, truncation=True, padding='max_length', return_attention_mask=True)
         negative_encoding = self.tokenizer(negative_context, max_length=self.max_length, truncation=True, padding='max_length', return_attention_mask=True)
 
-        # 转换为张量
+ 
         question_encoding = {k: paddle.to_tensor(v) for k, v in question_encoding.items()}
         positive_encoding = {k: paddle.to_tensor(v) for k, v in positive_encoding.items()}
         negative_encoding = {k: paddle.to_tensor(v) for k, v in negative_encoding.items()}
@@ -44,7 +44,7 @@ def load_squad_data(file_path):
                 is_impossible = qa.get('is_impossible', False)
                 answers = [answer['text'] for answer in qa['answers']]
                 
-                # 对于不可能的问题，answers 列表将为空
+                
                 data.append({
                     'id': id,
                     'question': question,
@@ -58,16 +58,16 @@ def preprocess_data_for_dpr(squad_data):
     processed_data = []
     for item in squad_data:
         if item['is_impossible']:
-            continue  # 对于 DPR 训练，我们跳过没有答案的问题
+            continue  
         question = item['question']
         context = item['context']
-        answer = item['answers'][0]  # 取第一个答案
+        answer = item['answers'][0]  
         
-        # 假设 context 为正样本，此处简化处理，实际应更精确地定位答案所在段落
+        
         positive_context = context
         
-        # 生成负样本，此处简化处理，实际应避免选中包含答案的段落
-        negative_context = context[::-1]  # 这里只是一个示例，实际上你需要选择其他不包含答案的段落
+        
+        negative_context = context[::-1]  
         
         processed_data.append({
             'question': question,
