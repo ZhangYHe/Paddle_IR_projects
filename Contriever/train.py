@@ -14,7 +14,7 @@ from paddlenlp.transformers import BertModel, BertTokenizer
 import argparse
 
 
-parser = argparse.ArgumentParser(description='DPR Training')
+parser = argparse.ArgumentParser(description='Contriever Training')
 parser.add_argument('--dataset_path', type=str, default='/home/zhangyh/dataset/MS\ MARCO/passage\ raranking', help='Path to the training data dir')
 args = parser.parse_args()
 
