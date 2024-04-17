@@ -1,5 +1,7 @@
 # Paddle_projects
 
+本仓库包含7个使用Paddle实现的模型
+
 | 所属领域       | 模型类别   | 模型名称   | 论文名称                                                                 | 链接                  |
 | ------------- | -------- | -------- | -------------------------------------------------------------------- | -------------------- |
 | 自然语言处理    | 信息检索   | DPR      | [Dense passage retrieval for open-domain question answering](https://paperswithcode.com/paper/dense-passage-retrieval-for-open-domain) | [DPR](./DPR/)        |
