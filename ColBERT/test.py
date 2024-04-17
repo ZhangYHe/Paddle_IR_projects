@@ -13,7 +13,7 @@ from paddlenlp.transformers import BertModel, BertTokenizer
 import argparse
 from ColBERT_model import ColBERT, margin_ranking_loss
 
-parser = argparse.ArgumentParser(description='ColBERT Training')
+parser = argparse.ArgumentParser(description='ColBERT Testing')
 parser.add_argument('--dataset_path', type=str, default='/home/zhangyh/dataset/MS\ MARCO/passage\ raranking', help='Path to the training data dir')
 parser.add_argument('--checkpoint_path', type=str, default='/home/zhangyh/code/paddle/ColBERT_paddle/checkpoints/colbert_checkpoint_1500.pdparams')
 args = parser.parse_args()

@@ -15,7 +15,7 @@ import time
 import tensorboardX as tbx
 from COIL_model import COIL_full_Model, coil_loss
 
-parser = argparse.ArgumentParser(description='ColBERT Training')
+parser = argparse.ArgumentParser(description='COIL-full Testing')
 parser.add_argument('--dataset_path', type=str, default='/home/zhangyh/dataset/MS\ MARCO/passage\ raranking', help='Path to the training data dir')
 parser.add_argument('--checkpoint_path', type=str, default='/home/zhangyh/code/paddle/ColBERT_paddle/checkpoints/colbert_checkpoint_1500.pdparams')
 parser.add_argument('--logdir', type=str, default='/home/zhangyh/code/paddle/logs')

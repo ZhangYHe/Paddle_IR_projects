@@ -13,7 +13,7 @@ from paddle.regularizer import L2Decay
 from paddlenlp.transformers import BertModel, BertTokenizer
 import argparse
 
-parser = argparse.ArgumentParser(description='Contriever Training')
+parser = argparse.ArgumentParser(description='Contriever Testing')
 parser.add_argument('--dataset_path', type=str, default='/home/zhangyh/dataset/MS\ MARCO/passage\ raranking', help='Path to the training data dir')
 parser.add_argument('--checkpoint_path', type=str, default='/home/zhangyh/code/paddle/Contriever_paddle/checkpoints/Contriever_model_checkpoint_4000.pdparams')
 args = parser.parse_args()

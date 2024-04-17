@@ -12,7 +12,7 @@ from tqdm import tqdm
 import argparse
 
 
-parser = argparse.ArgumentParser(description='DPR Training')
+parser = argparse.ArgumentParser(description='DPR Testing')
 parser.add_argument('--file_path', type=str, default='/home/zhangyh/code/paddle/DPR_paddle/data/SQuAD2.0/train-v2.0.json', help='Path to the training data file')
 parser.add_argument('--checkpoint_path', type=str, default='/home/zhangyh/code/paddle/DPR_paddle/checkpoints/checkpointsdpr_model_epoch_2.pdparams')
 args = parser.parse_args()
