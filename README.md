@@ -9,5 +9,5 @@
 | 自然语言处理    | 信息检索   | ColBERT | [ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT](https://paperswithcode.com/paper/colbert-efficient-and-effective-passage) | [ColBERT](./ColBERT/) |
 | 自然语言处理    | 信息检索   | COIL-tok | [COIL: Revisit exact lexical match in information retrieval with contextualized inverted list](https://paperswithcode.com/paper/coil-revisit-exact-lexical-match-in) | [COIL-tok](./COIL-tok/) |
 | 自然语言处理    | 信息检索   | COIL-full | [COIL: Revisit exact lexical match in information retrieval with contextualized inverted list](https://paperswithcode.com/paper/coil-revisit-exact-lexical-match-in) | [COIL-full](./COIL-full/) |
-| 自然语言处理    | 信息检索   | DCE | [Learning Diverse Document Representations with Deep Query Interactions for Dense Retrieval](https://paperswithcode.com/paper/learning-diverse-document-representations) | [DCE](./DCE/) |
-| 自然语言处理    | 信息检索   |
+| 自然语言处理    | 信息检索   | DCE       | [Learning Diverse Document Representations with Deep Query Interactions for Dense Retrieval](https://paperswithcode.com/paper/learning-diverse-document-representations) | [DCE](./DCE/) |
+| 自然语言处理    | 信息检索   | ANCE      | [Approximate nearest neighbor negative contrastive learning for dense text retrieval](https://paperswithcode.com/paper/approximate-nearest-neighbor-negative) | [ANCE](./ANCE/) |
