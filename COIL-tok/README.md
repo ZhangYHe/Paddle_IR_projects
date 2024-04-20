@@ -31,3 +31,7 @@ COIL-tok (Contextualized Inverted List with token-only model) 是一种信息检
   year={2021}
 }
 ```
+
+## Checkpoint
+
+链接: https://pan.baidu.com/s/16Ah1HdIqv61Oq09-xvaEhg?pwd=kfir 提取码: kfir

@@ -35,3 +35,7 @@ ColBERT是一种基于BERT的高效信息检索模型，旨在解决大规模检
   year={2020}
 }
 ```
+
+## Checkpoint
+
+链接: https://pan.baidu.com/s/16Ah1HdIqv61Oq09-xvaEhg?pwd=kfir 提取码: kfir

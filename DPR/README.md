@@ -33,3 +33,7 @@ DPR模型由两部分组成：**问题编码器**和**文档编码器**。问题
   year={2020}
 }
 ```
+
+## Checkpoint
+
+链接: https://pan.baidu.com/s/16Ah1HdIqv61Oq09-xvaEhg?pwd=kfir 提取码: kfir

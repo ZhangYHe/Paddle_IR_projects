@@ -32,3 +32,7 @@ DCE模型（Dual Cross Encoder）是一种用于密集文档检索的框架。�
   year={2022}
 }
 ```
+
+## Checkpoint
+
+链接: https://pan.baidu.com/s/16Ah1HdIqv61Oq09-xvaEhg?pwd=kfir 提取码: kfir

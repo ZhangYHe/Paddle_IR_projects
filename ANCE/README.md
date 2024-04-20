@@ -34,3 +34,7 @@ ANCE（Approximate Nearest Neighbor Negative Contrastive Estimation）是一种�
   year={2020}
 }
 ```
+
+## Checkpoint
+
+链接: https://pan.baidu.com/s/16Ah1HdIqv61Oq09-xvaEhg?pwd=kfir 提取码: kfir
