@@ -5,7 +5,7 @@ ANCE（Approximate Nearest Neighbor Negative Contrastive Estimation）是一种�
 在训练过程中，ANCE使用BERT Siamese/Dual Encoder结构，采用点积相似性和负对数似然（NLL）损失函数。这种方法首先使用预训练的BM25模型生成初始训练数据，然后进行模型训练和ANN索引的周期性更新，以维护索引的实时性​​。
 
 
-# Environment
+## Environment
 - python 3.10
 - paddle 2.6.1
 - cuda 12.0
@@ -14,13 +14,13 @@ ANCE（Approximate Nearest Neighbor Negative Contrastive Estimation）是一种�
 ## Dataset 
 - [MS MARCO - Passage ranking dataset](https://microsoft.github.io/msmarco/Datasets#passage-ranking-dataset)
 
-# Train
+## Train
 
 ```
   bash train.sh
 ```
 
-# Inference
+## Inference
 ```
   bash test.sh
 ```

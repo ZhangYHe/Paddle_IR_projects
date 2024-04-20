@@ -5,7 +5,7 @@ ColBERT是一种基于BERT的高效信息检索模型，旨在解决大规模检
 在绝大多数基于BERT的检索模型中，查询和文档是先合并再输入到模型中的。与之不同，ColBERT采用Late Interaction机制，在生成词向量表示之后再进行交互计算，这样可以大幅降低计算成本。通过以上机制，ColBERT在不牺牲准确性的前提下，显著提高了检索效率，使其能够应对大规模信息检索任务。
 
 
-# Environment
+## Environment
 - python 3.10
 - paddle 2.6.1
 - cuda 12.0
@@ -14,13 +14,13 @@ ColBERT是一种基于BERT的高效信息检索模型，旨在解决大规模检
 ## Dataset 
 - [MS MARCO - Passage ranking dataset](https://microsoft.github.io/msmarco/Datasets#passage-ranking-dataset)
 
-# Train
+## Train
 
 ```
   bash train.sh
 ```
 
-# Inference
+## Inference
 ```
   bash test.sh
 ```
