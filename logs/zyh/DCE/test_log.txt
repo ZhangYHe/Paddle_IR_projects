@@ -1,0 +1,93 @@
+nohup: ignoring input
+bash: /home/zhangyh/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+/home/zhangyh/miniconda3/envs/paddle_2.6.1/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+[32m[2024-07-26 17:03:36,007] [    INFO][0m - Already cached /home/zhangyh/.paddlenlp/models/bert-base-uncased/model_state.pdparams[0m
+[32m[2024-07-26 17:03:36,007] [    INFO][0m - Loading weights file model_state.pdparams from cache at /home/zhangyh/.paddlenlp/models/bert-base-uncased/model_state.pdparams[0m
+[32m[2024-07-26 17:03:39,255] [    INFO][0m - Loaded weights file from disk, setting weights to model.[0m
+W0726 17:03:39.424659 332989 gpu_resources.cc:119] Please NOTE: device: 0, GPU Compute Capability: 8.6, Driver API Version: 12.3, Runtime API Version: 12.0
+W0726 17:03:39.425506 332989 gpu_resources.cc:164] device: 0, cuDNN Version: 8.9.
+[33m[2024-07-26 17:03:39,721] [ WARNING][0m - Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder_bias', 'cls.predictions.decoder_weight', 'cls.predictions.layer_norm.bias', 'cls.predictions.layer_norm.weight', 'cls.predictions.transform.bias', 'cls.predictions.transform.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).[0m
+[32m[2024-07-26 17:03:39,722] [    INFO][0m - All the weights of BertModel were initialized from the model checkpoint at bert-base-uncased.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use BertModel for predictions without further training.[0m
+[32m[2024-07-26 17:03:39,729] [    INFO][0m - Already cached /home/zhangyh/.paddlenlp/models/bert-base-uncased/model_state.pdparams[0m
+[32m[2024-07-26 17:03:39,729] [    INFO][0m - Loading weights file model_state.pdparams from cache at /home/zhangyh/.paddlenlp/models/bert-base-uncased/model_state.pdparams[0m
+[32m[2024-07-26 17:03:42,835] [    INFO][0m - Loaded weights file from disk, setting weights to model.[0m
+[33m[2024-07-26 17:03:43,113] [ WARNING][0m - Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder_bias', 'cls.predictions.decoder_weight', 'cls.predictions.layer_norm.bias', 'cls.predictions.layer_norm.weight', 'cls.predictions.transform.bias', 'cls.predictions.transform.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).[0m
+[32m[2024-07-26 17:03:43,114] [    INFO][0m - All the weights of BertModel were initialized from the model checkpoint at bert-base-uncased.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use BertModel for predictions without further training.[0m
+[32m[2024-07-26 17:03:43,120] [    INFO][0m - Already cached /home/zhangyh/.paddlenlp/models/bert-base-uncased/bert-base-uncased-vocab.txt[0m
+[32m[2024-07-26 17:03:43,133] [    INFO][0m - tokenizer config file saved in /home/zhangyh/.paddlenlp/models/bert-base-uncased/tokenizer_config.json[0m
+[32m[2024-07-26 17:03:43,133] [    INFO][0m - Special tokens file saved in /home/zhangyh/.paddlenlp/models/bert-base-uncased/special_tokens_map.json[0m
+[32m[2024-07-26 17:04:13,862] [    INFO][0m - Already cached /home/zhangyh/.paddlenlp/models/bert-base-uncased/bert-base-uncased-vocab.txt[0m
+[32m[2024-07-26 17:04:13,875] [    INFO][0m - tokenizer config file saved in /home/zhangyh/.paddlenlp/models/bert-base-uncased/tokenizer_config.json[0m
+[32m[2024-07-26 17:04:13,875] [    INFO][0m - Special tokens file saved in /home/zhangyh/.paddlenlp/models/bert-base-uncased/special_tokens_map.json[0m
+[!] Load model
+[!] Load dataset
+[!] Evaluate
+Testing:   0%|          | 0/60 [00:00<?, ?batch/s]Testing:   0%|          | 0/60 [00:18<?, ?batch/s, Batch Accuracy=1]Testing:   2%|▏         | 1/60 [00:18<18:12, 18.52s/batch, Batch Accuracy=1]Testing:   2%|▏         | 1/60 [00:24<18:12, 18.52s/batch, Batch Accuracy=1]Testing:   3%|▎         | 2/60 [00:24<10:59, 11.38s/batch, Batch Accuracy=1]Testing:   3%|▎         | 2/60 [00:31<10:59, 11.38s/batch, Batch Accuracy=1]Testing:   5%|▌         | 3/60 [00:31<08:43,  9.18s/batch, Batch Accuracy=1]Testing:   5%|▌         | 3/60 [00:40<08:43,  9.18s/batch, Batch Accuracy=1]Testing:   7%|▋         | 4/60 [00:40<08:36,  9.22s/batch, Batch Accuracy=1]Testing:   7%|▋         | 4/60 [00:49<08:36,  9.22s/batch, Batch Accuracy=1]Testing:   8%|▊         | 5/60 [00:49<08:27,  9.22s/batch, Batch Accuracy=1]Testing:   8%|▊         | 5/60 [00:59<08:27,  9.22s/batch, Batch Accuracy=1]Testing:  10%|█         | 6/60 [00:59<08:18,  9.23s/batch, Batch Accuracy=1]Testing:  10%|█         | 6/60 [01:08<08:18,  9.23s/batch, Batch Accuracy=1]Testing:  12%|█▏        | 7/60 [01:08<08:08,  9.23s/batch, Batch Accuracy=1]Testing:  12%|█▏        | 7/60 [01:17<08:08,  9.23s/batch, Batch Accuracy=1]Testing:  13%|█▎        | 8/60 [01:17<07:58,  9.21s/batch, Batch Accuracy=1]Testing:  13%|█▎        | 8/60 [01:26<07:58,  9.21s/batch, Batch Accuracy=1]Testing:  15%|█▌        | 9/60 [01:26<07:51,  9.25s/batch, Batch Accuracy=1]Testing:  15%|█▌        | 9/60 [01:35<07:51,  9.25s/batch, Batch Accuracy=1]Testing:  17%|█▋        | 10/60 [01:35<07:38,  9.18s/batch, Batch Accuracy=1]Testing:  17%|█▋        | 10/60 [01:45<07:38,  9.18s/batch, Batch Accuracy=1]Testing:  18%|█▊        | 11/60 [01:45<07:31,  9.21s/batch, Batch Accuracy=1]Testing:  18%|█▊        | 11/60 [01:54<07:31,  9.21s/batch, Batch Accuracy=1]Testing:  20%|██        | 12/60 [01:54<07:22,  9.23s/batch, Batch Accuracy=1]Testing:  20%|██        | 12/60 [02:03<07:22,  9.23s/batch, Batch Accuracy=1]Testing:  22%|██▏       | 13/60 [02:03<07:15,  9.26s/batch, Batch Accuracy=1]Testing:  22%|██▏       | 13/60 [02:13<07:15,  9.26s/batch, Batch Accuracy=1]Testing:  23%|██▎       | 14/60 [02:13<07:05,  9.24s/batch, Batch Accuracy=1]Testing:  23%|██▎       | 14/60 [02:22<07:05,  9.24s/batch, Batch Accuracy=1]Testing:  25%|██▌       | 15/60 [02:22<06:57,  9.27s/batch, Batch Accuracy=1]Testing:  25%|██▌       | 15/60 [02:31<06:57,  9.27s/batch, Batch Accuracy=1]Testing:  27%|██▋       | 16/60 [02:31<06:46,  9.24s/batch, Batch Accuracy=1]Testing:  27%|██▋       | 16/60 [02:40<06:46,  9.24s/batch, Batch Accuracy=1]Testing:  28%|██▊       | 17/60 [02:40<06:36,  9.22s/batch, Batch Accuracy=1]Testing:  28%|██▊       | 17/60 [02:49<06:36,  9.22s/batch, Batch Accuracy=1]Testing:  30%|███       | 18/60 [02:49<06:26,  9.20s/batch, Batch Accuracy=1]Testing:  30%|███       | 18/60 [02:59<06:26,  9.20s/batch, Batch Accuracy=1]Testing:  32%|███▏      | 19/60 [02:59<06:18,  9.23s/batch, Batch Accuracy=1]Testing:  32%|███▏      | 19/60 [03:08<06:18,  9.23s/batch, Batch Accuracy=1]Testing:  33%|███▎      | 20/60 [03:08<06:09,  9.25s/batch, Batch Accuracy=1]Testing:  33%|███▎      | 20/60 [03:17<06:09,  9.25s/batch, Batch Accuracy=1]Testing:  35%|███▌      | 21/60 [03:17<06:00,  9.25s/batch, Batch Accuracy=1]Testing:  35%|███▌      | 21/60 [03:26<06:00,  9.25s/batch, Batch Accuracy=1]Testing:  37%|███▋      | 22/60 [03:26<05:51,  9.25s/batch, Batch Accuracy=1]Testing:  37%|███▋      | 22/60 [03:36<05:51,  9.25s/batch, Batch Accuracy=1]Testing:  38%|███▊      | 23/60 [03:36<05:43,  9.29s/batch, Batch Accuracy=1]Testing:  38%|███▊      | 23/60 [03:45<05:43,  9.29s/batch, Batch Accuracy=1]Testing:  40%|████      | 24/60 [03:45<05:33,  9.27s/batch, Batch Accuracy=1]Testing:  40%|████      | 24/60 [03:54<05:33,  9.27s/batch, Batch Accuracy=1]Testing:  42%|████▏     | 25/60 [03:54<05:24,  9.26s/batch, Batch Accuracy=1]Testing:  42%|████▏     | 25/60 [04:04<05:24,  9.26s/batch, Batch Accuracy=1]Testing:  43%|████▎     | 26/60 [04:04<05:14,  9.25s/batch, Batch Accuracy=1]Testing:  43%|████▎     | 26/60 [04:13<05:14,  9.25s/batch, Batch Accuracy=1]Testing:  45%|████▌     | 27/60 [04:13<05:05,  9.26s/batch, Batch Accuracy=1]Testing:  45%|████▌     | 27/60 [04:22<05:05,  9.26s/batch, Batch Accuracy=1]Testing:  47%|████▋     | 28/60 [04:22<04:55,  9.23s/batch, Batch Accuracy=1]Testing:  47%|████▋     | 28/60 [04:31<04:55,  9.23s/batch, Batch Accuracy=1]Testing:  48%|████▊     | 29/60 [04:31<04:46,  9.23s/batch, Batch Accuracy=1]Testing:  48%|████▊     | 29/60 [04:40<04:46,  9.23s/batch, Batch Accuracy=1]Testing:  50%|█████     | 30/60 [04:40<04:36,  9.23s/batch, Batch Accuracy=1]Testing:  50%|█████     | 30/60 [04:50<04:36,  9.23s/batch, Batch Accuracy=1]Testing:  52%|█████▏    | 31/60 [04:50<04:27,  9.24s/batch, Batch Accuracy=1]Testing:  52%|█████▏    | 31/60 [04:59<04:27,  9.24s/batch, Batch Accuracy=1]Testing:  53%|█████▎    | 32/60 [04:59<04:18,  9.23s/batch, Batch Accuracy=1]Testing:  53%|█████▎    | 32/60 [05:08<04:18,  9.23s/batch, Batch Accuracy=1]Testing:  55%|█████▌    | 33/60 [05:08<04:09,  9.24s/batch, Batch Accuracy=1]Testing:  55%|█████▌    | 33/60 [05:18<04:09,  9.24s/batch, Batch Accuracy=1]Testing:  57%|█████▋    | 34/60 [05:18<04:01,  9.28s/batch, Batch Accuracy=1]Testing:  57%|█████▋    | 34/60 [05:27<04:01,  9.28s/batch, Batch Accuracy=1]Testing:  58%|█████▊    | 35/60 [05:27<03:50,  9.24s/batch, Batch Accuracy=1]Testing:  58%|█████▊    | 35/60 [05:36<03:50,  9.24s/batch, Batch Accuracy=1]Testing:  60%|██████    | 36/60 [05:36<03:41,  9.22s/batch, Batch Accuracy=1]Testing:  60%|██████    | 36/60 [05:45<03:41,  9.22s/batch, Batch Accuracy=1]Testing:  62%|██████▏   | 37/60 [05:45<03:32,  9.24s/batch, Batch Accuracy=1]Testing:  62%|██████▏   | 37/60 [05:55<03:32,  9.24s/batch, Batch Accuracy=1]Testing:  63%|██████▎   | 38/60 [05:55<03:24,  9.28s/batch, Batch Accuracy=1]Testing:  63%|██████▎   | 38/60 [06:04<03:24,  9.28s/batch, Batch Accuracy=1]Testing:  65%|██████▌   | 39/60 [06:04<03:14,  9.28s/batch, Batch Accuracy=1]Testing:  65%|██████▌   | 39/60 [06:13<03:14,  9.28s/batch, Batch Accuracy=0.9]Testing:  67%|██████▋   | 40/60 [06:13<03:05,  9.29s/batch, Batch Accuracy=0.9]Testing:  67%|██████▋   | 40/60 [06:22<03:05,  9.29s/batch, Batch Accuracy=1]  Testing:  68%|██████▊   | 41/60 [06:22<02:56,  9.31s/batch, Batch Accuracy=1]Testing:  68%|██████▊   | 41/60 [06:32<02:56,  9.31s/batch, Batch Accuracy=1]Testing:  70%|███████   | 42/60 [06:32<02:47,  9.29s/batch, Batch Accuracy=1]Testing:  70%|███████   | 42/60 [06:41<02:47,  9.29s/batch, Batch Accuracy=1]Testing:  72%|███████▏  | 43/60 [06:41<02:38,  9.30s/batch, Batch Accuracy=1]Testing:  72%|███████▏  | 43/60 [06:50<02:38,  9.30s/batch, Batch Accuracy=1]Testing:  73%|███████▎  | 44/60 [06:50<02:29,  9.34s/batch, Batch Accuracy=1]Testing:  73%|███████▎  | 44/60 [07:00<02:29,  9.34s/batch, Batch Accuracy=1]Testing:  75%|███████▌  | 45/60 [07:00<02:19,  9.33s/batch, Batch Accuracy=1]Testing:  75%|███████▌  | 45/60 [07:09<02:19,  9.33s/batch, Batch Accuracy=1]Testing:  77%|███████▋  | 46/60 [07:09<02:10,  9.30s/batch, Batch Accuracy=1]Testing:  77%|███████▋  | 46/60 [07:18<02:10,  9.30s/batch, Batch Accuracy=1]Testing:  78%|███████▊  | 47/60 [07:18<02:01,  9.35s/batch, Batch Accuracy=1]Testing:  78%|███████▊  | 47/60 [07:28<02:01,  9.35s/batch, Batch Accuracy=1]Testing:  80%|████████  | 48/60 [07:28<01:52,  9.35s/batch, Batch Accuracy=1]Testing:  80%|████████  | 48/60 [07:37<01:52,  9.35s/batch, Batch Accuracy=1]Testing:  82%|████████▏ | 49/60 [07:37<01:43,  9.39s/batch, Batch Accuracy=1]Testing:  82%|████████▏ | 49/60 [07:47<01:43,  9.39s/batch, Batch Accuracy=1]Testing:  83%|████████▎ | 50/60 [07:47<01:33,  9.35s/batch, Batch Accuracy=1]Testing:  83%|████████▎ | 50/60 [07:56<01:33,  9.35s/batch, Batch Accuracy=1]Testing:  85%|████████▌ | 51/60 [07:56<01:23,  9.32s/batch, Batch Accuracy=1]Testing:  85%|████████▌ | 51/60 [08:05<01:23,  9.32s/batch, Batch Accuracy=1]Testing:  87%|████████▋ | 52/60 [08:05<01:14,  9.33s/batch, Batch Accuracy=1]Testing:  87%|████████▋ | 52/60 [08:15<01:14,  9.33s/batch, Batch Accuracy=1]Testing:  88%|████████▊ | 53/60 [08:15<01:05,  9.37s/batch, Batch Accuracy=1]Testing:  88%|████████▊ | 53/60 [08:23<01:05,  9.37s/batch, Batch Accuracy=1]Testing:  90%|█████████ | 54/60 [08:23<00:55,  9.22s/batch, Batch Accuracy=1]Testing:  90%|█████████ | 54/60 [08:34<00:55,  9.22s/batch, Batch Accuracy=1]Testing:  92%|█████████▏| 55/60 [08:34<00:47,  9.51s/batch, Batch Accuracy=1]Testing:  92%|█████████▏| 55/60 [08:42<00:47,  9.51s/batch, Batch Accuracy=1]Testing:  93%|█████████▎| 56/60 [08:42<00:36,  9.16s/batch, Batch Accuracy=1]Testing:  93%|█████████▎| 56/60 [08:51<00:36,  9.16s/batch, Batch Accuracy=0.9]Testing:  95%|█████████▌| 57/60 [08:51<00:27,  9.15s/batch, Batch Accuracy=0.9]Testing:  95%|█████████▌| 57/60 [09:00<00:27,  9.15s/batch, Batch Accuracy=1]  Testing:  97%|█████████▋| 58/60 [09:00<00:18,  9.19s/batch, Batch Accuracy=1]Testing:  97%|█████████▋| 58/60 [09:07<00:18,  9.19s/batch, Batch Accuracy=1]Testing:  98%|█████████▊| 59/60 [09:07<00:08,  8.53s/batch, Batch Accuracy=1]Testing:  98%|█████████▊| 59/60 [09:07<00:08,  8.53s/batch, Batch Accuracy=1]Testing: 100%|██████████| 60/60 [09:07<00:00,  9.13s/batch, Batch Accuracy=1]
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 1.0
+Total Accuracy 0.9975000008940696
+Total Accuracy 0.9975609764820192
+Total Accuracy 0.9976190484705425
+Total Accuracy 0.9976744194363438
+Total Accuracy 0.9977272735400633
+Total Accuracy 0.9977777785725064
+Total Accuracy 0.9978260877339736
+Total Accuracy 0.9978723411864423
+Total Accuracy 0.9979166674117247
+Total Accuracy 0.9979591844033222
+Total Accuracy 0.9980000007152557
+Total Accuracy 0.9980392163875056
+Total Accuracy 0.9980769237646689
+Total Accuracy 0.9981132082219394
+Total Accuracy 0.998148148810422
+Total Accuracy 0.9981818188320507
+Total Accuracy 0.9982142863529069
+Total Accuracy 0.9964912293250101
+Total Accuracy 0.9965517253711306
+Total Accuracy 0.9966101707038233
+Total Accuracy 0.9966216228298239
+Overall Accuracy: 0.9966216228298239

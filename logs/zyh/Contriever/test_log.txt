@@ -1,0 +1,41 @@
+nohup: ignoring input
+bash: /home/zhangyh/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+/home/zhangyh/miniconda3/envs/paddle_2.6.1/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+[32m[2024-07-26 17:02:37,404] [    INFO][0m - Already cached /home/zhangyh/.paddlenlp/models/bert-base-uncased/model_state.pdparams[0m
+[32m[2024-07-26 17:02:37,404] [    INFO][0m - Loading weights file model_state.pdparams from cache at /home/zhangyh/.paddlenlp/models/bert-base-uncased/model_state.pdparams[0m
+[32m[2024-07-26 17:02:40,644] [    INFO][0m - Loaded weights file from disk, setting weights to model.[0m
+W0726 17:02:40.794603 331986 gpu_resources.cc:119] Please NOTE: device: 0, GPU Compute Capability: 8.6, Driver API Version: 12.3, Runtime API Version: 12.0
+W0726 17:02:40.795387 331986 gpu_resources.cc:164] device: 0, cuDNN Version: 8.9.
+[33m[2024-07-26 17:02:41,148] [ WARNING][0m - Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder_bias', 'cls.predictions.decoder_weight', 'cls.predictions.layer_norm.bias', 'cls.predictions.layer_norm.weight', 'cls.predictions.transform.bias', 'cls.predictions.transform.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).[0m
+[32m[2024-07-26 17:02:41,148] [    INFO][0m - All the weights of BertModel were initialized from the model checkpoint at bert-base-uncased.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use BertModel for predictions without further training.[0m
+[32m[2024-07-26 17:03:10,812] [    INFO][0m - Already cached /home/zhangyh/.paddlenlp/models/bert-base-uncased/bert-base-uncased-vocab.txt[0m
+[32m[2024-07-26 17:03:10,825] [    INFO][0m - tokenizer config file saved in /home/zhangyh/.paddlenlp/models/bert-base-uncased/tokenizer_config.json[0m
+[32m[2024-07-26 17:03:10,825] [    INFO][0m - Special tokens file saved in /home/zhangyh/.paddlenlp/models/bert-base-uncased/special_tokens_map.json[0m
+[!] Load model
+[!] Load dataset
+[!] Evaluate
+Evaluating:   0%|          | 0/19 [00:00<?, ?it/s]Evaluating:   5%|▌         | 1/19 [00:33<09:56, 33.16s/it]Evaluating:  11%|█         | 2/19 [01:00<08:27, 29.84s/it]Evaluating:  16%|█▌        | 3/19 [01:29<07:53, 29.59s/it]Evaluating:  21%|██        | 4/19 [01:59<07:23, 29.54s/it]Evaluating:  26%|██▋       | 5/19 [02:28<06:53, 29.52s/it]Evaluating:  32%|███▏      | 6/19 [02:58<06:24, 29.56s/it]Evaluating:  37%|███▋      | 7/19 [03:27<05:51, 29.28s/it]Evaluating:  42%|████▏     | 8/19 [03:57<05:24, 29.47s/it]Evaluating:  47%|████▋     | 9/19 [04:25<04:52, 29.26s/it]Evaluating:  53%|█████▎    | 10/19 [04:54<04:22, 29.17s/it]Evaluating:  58%|█████▊    | 11/19 [05:24<03:53, 29.17s/it]Evaluating:  63%|██████▎   | 12/19 [05:53<03:23, 29.13s/it]Evaluating:  68%|██████▊   | 13/19 [06:21<02:54, 29.04s/it]Evaluating:  74%|███████▎  | 14/19 [06:50<02:24, 28.91s/it]Evaluating:  79%|███████▉  | 15/19 [07:19<01:55, 28.92s/it]Evaluating:  84%|████████▍ | 16/19 [07:48<01:26, 28.95s/it]Evaluating:  89%|████████▉ | 17/19 [08:17<00:57, 28.89s/it]Evaluating:  95%|█████████▍| 18/19 [08:46<00:28, 28.86s/it]Evaluating: 100%|██████████| 19/19 [08:58<00:00, 24.00s/it]Evaluating: 100%|██████████| 19/19 [08:58<00:00, 28.36s/it]
+current accuracy : 0.96875
+current accuracy : 0.984375
+current accuracy : 0.9791666666666666
+current accuracy : 0.9609375
+current accuracy : 0.95625
+current accuracy : 0.9635416666666666
+current accuracy : 0.9553571428571429
+current accuracy : 0.9609375
+current accuracy : 0.9583333333333334
+current accuracy : 0.95625
+current accuracy : 0.9602272727272727
+current accuracy : 0.9583333333333334
+current accuracy : 0.9591346153846154
+current accuracy : 0.9620535714285714
+current accuracy : 0.9625
+current accuracy : 0.958984375
+current accuracy : 0.9613970588235294
+current accuracy : 0.9618055555555556
+current accuracy : 0.9594594594594594
+Accuracy: 0.9594594594594594

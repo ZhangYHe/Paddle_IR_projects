@@ -1,0 +1,45 @@
+nohup: ignoring input
+bash: /home/zhangyh/miniconda3/lib/libtinfo.so.6: no version information available (required by bash)
+/home/zhangyh/miniconda3/envs/paddle_2.6.1/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+[32m[2024-07-26 16:52:44,753] [    INFO][0m - Already cached /home/zhangyh/.paddlenlp/models/bert-base-uncased/model_state.pdparams[0m
+[32m[2024-07-26 16:52:44,753] [    INFO][0m - Loading weights file model_state.pdparams from cache at /home/zhangyh/.paddlenlp/models/bert-base-uncased/model_state.pdparams[0m
+[32m[2024-07-26 16:52:48,026] [    INFO][0m - Loaded weights file from disk, setting weights to model.[0m
+W0726 16:52:48.187022 324124 gpu_resources.cc:119] Please NOTE: device: 0, GPU Compute Capability: 8.6, Driver API Version: 12.3, Runtime API Version: 12.0
+W0726 16:52:48.187851 324124 gpu_resources.cc:164] device: 0, cuDNN Version: 8.9.
+[33m[2024-07-26 16:52:48,504] [ WARNING][0m - Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder_bias', 'cls.predictions.decoder_weight', 'cls.predictions.layer_norm.bias', 'cls.predictions.layer_norm.weight', 'cls.predictions.transform.bias', 'cls.predictions.transform.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).[0m
+[32m[2024-07-26 16:52:48,504] [    INFO][0m - All the weights of BertModel were initialized from the model checkpoint at bert-base-uncased.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use BertModel for predictions without further training.[0m
+[32m[2024-07-26 16:52:48,509] [    INFO][0m - Already cached /home/zhangyh/.paddlenlp/models/bert-base-uncased/model_state.pdparams[0m
+[32m[2024-07-26 16:52:48,509] [    INFO][0m - Loading weights file model_state.pdparams from cache at /home/zhangyh/.paddlenlp/models/bert-base-uncased/model_state.pdparams[0m
+[32m[2024-07-26 16:52:51,551] [    INFO][0m - Loaded weights file from disk, setting weights to model.[0m
+[33m[2024-07-26 16:52:51,852] [ WARNING][0m - Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.decoder_bias', 'cls.predictions.decoder_weight', 'cls.predictions.layer_norm.bias', 'cls.predictions.layer_norm.weight', 'cls.predictions.transform.bias', 'cls.predictions.transform.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).[0m
+[32m[2024-07-26 16:52:51,852] [    INFO][0m - All the weights of BertModel were initialized from the model checkpoint at bert-base-uncased.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use BertModel for predictions without further training.[0m
+[32m[2024-07-26 16:53:28,443] [    INFO][0m - Already cached /home/zhangyh/.paddlenlp/models/bert-base-uncased/bert-base-uncased-vocab.txt[0m
+[32m[2024-07-26 16:53:28,456] [    INFO][0m - tokenizer config file saved in /home/zhangyh/.paddlenlp/models/bert-base-uncased/tokenizer_config.json[0m
+[32m[2024-07-26 16:53:28,456] [    INFO][0m - Special tokens file saved in /home/zhangyh/.paddlenlp/models/bert-base-uncased/special_tokens_map.json[0m
+[!] Load model
+[!] Load dataset
+[!] Evaluate
+Evaluating:   0%|          | 0/15 [00:00<?, ?batch/s]Evaluating:   7%|▋         | 1/15 [00:42<09:48, 42.00s/batch]Evaluating:  13%|█▎        | 2/15 [01:16<08:06, 37.46s/batch]Evaluating:  20%|██        | 3/15 [01:51<07:18, 36.52s/batch]Evaluating:  27%|██▋       | 4/15 [02:27<06:40, 36.40s/batch]Evaluating:  33%|███▎      | 5/15 [03:04<06:05, 36.52s/batch]Evaluating:  40%|████      | 6/15 [03:40<05:27, 36.36s/batch]Evaluating:  47%|████▋     | 7/15 [04:16<04:50, 36.31s/batch]Evaluating:  53%|█████▎    | 8/15 [04:53<04:13, 36.27s/batch]Evaluating:  60%|██████    | 9/15 [05:28<03:36, 36.15s/batch]Evaluating:  67%|██████▋   | 10/15 [06:04<03:00, 36.08s/batch]Evaluating:  73%|███████▎  | 11/15 [06:40<02:24, 36.07s/batch]Evaluating:  80%|████████  | 12/15 [07:17<01:48, 36.08s/batch]Evaluating:  87%|████████▋ | 13/15 [07:52<01:11, 35.88s/batch]Evaluating:  93%|█████████▎| 14/15 [08:29<00:36, 36.18s/batch]Evaluating: 100%|██████████| 15/15 [08:54<00:00, 33.01s/batch]Evaluating: 100%|██████████| 15/15 [08:54<00:00, 35.67s/batch]
+Accuracy: 1.0000
+Accuracy: 1.0000
+Accuracy: 1.0000
+Accuracy: 0.9938
+Accuracy: 0.9950
+Accuracy: 0.9958
+Accuracy: 0.9964
+Accuracy: 0.9969
+Accuracy: 0.9972
+Accuracy: 0.9975
+Accuracy: 0.9977
+Accuracy: 0.9979
+Accuracy: 0.9981
+Accuracy: 0.9982
+Accuracy: 0.9983
+Accuracy: 0.9983
